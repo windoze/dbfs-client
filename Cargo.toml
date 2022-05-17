@@ -1,11 +1,13 @@
 [package]
 name = "dbfs-client"
+description = "Databricks DBFS Client"
 authors = ["Chen Xu<windoze@0d0a.com>"]
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 categories = ["web-programming::http-client"]
 keywords = ["databricks", "dbfs"]
+readme = "README.md"
 
 [dependencies]
 log = "0.4"
