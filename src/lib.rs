@@ -962,8 +962,8 @@ mod tests {
     fn init() -> DbfsClient {
         crate::tests::init_logger();
         DbfsClient::new(
-            &std::env::var("SPARK_CONFIG__DATABRICKS__WORKSPACE_INSTANCE_URL").unwrap(),
-            &std::env::var("DATABRICKS_WORKSPACE_TOKEN_VALUE").unwrap(),
+            &std::env::var("DATABRICKS_URL").unwrap(),
+            &std::env::var("DATABRICKS_API_TOKEN").unwrap(),
         )
     }
 
